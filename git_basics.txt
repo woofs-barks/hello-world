@@ -1,0 +1,10 @@
+echo "# hello-world" >> README.md
+git init
+git add README.md
+git add .	#adds all files to track
+git add *	#adds all files to track
+git commit -m "first commit"
+git commit -a -m "comment"	#only commits files that are staged.
+
+git remote add origin https://github.com/woofs-barks/hello-world.git
+git push -u origin master
