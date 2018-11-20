@@ -8,3 +8,13 @@ git config --system core.editor "/bin/vim"
 #Assign a user a/c to new dir
 git config user.name “user”	
 git config user.email “user@example.com”
+
+#Lists all parameters configured.
+git config --list
+~/.gitconfig
+
+#Change the author of a particular commit
+git commit --author="John Doe <john@doe.org>"
+
+#Change author of last commit
+git commit --amend --author="John Doe <john@doe.org>"
