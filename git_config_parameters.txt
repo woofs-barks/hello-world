@@ -1,0 +1,10 @@
+#global username & email
+git config --global user.name "woofs&barks"
+git config --global user.email "pavanipotluri91@gmail.com"
+
+#Set a commit editor :
+git config --system core.editor "/bin/vim"
+
+#Assign a user a/c to new dir
+git config user.name “user”	
+git config user.email “user@example.com”
