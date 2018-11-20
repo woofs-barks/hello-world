@@ -1,0 +1,5 @@
+cd workingdir
+git clone /path/to/master 
+#To clone via ssh
+git clone <username>@<hostname.com>:<dirname> . 
+#To clone via https
