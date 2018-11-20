@@ -1,0 +1,9 @@
+#returns current branch you are in
+git branch
+
+#create a new branch
+git checkout branchname
+
+#To change into a branch
+git checkout <name>
+git checkout -b <name>
